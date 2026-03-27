@@ -1,0 +1,6 @@
+valor_produto = float(input("Digite o valor do produto: "))
+acrescimo = (valor_produto * 0.08)
+valor_final = (valor_produto + acrescimo)
+print(f"O valor final do produto após o acrescimo é: R${valor_final}")
+print(f"O valor sem o acrescimo é: R${valor_produto}")
+print(f"O acrescimo é de 8% ou seja o valor acrescentado foi de: {acrescimo}")
