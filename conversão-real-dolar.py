@@ -1,0 +1,5 @@
+valor_real = float(input("Digite o valor em reais  que você deseja converter: "))
+print(f"O valor em Reais é: R${valor_real}")
+print(f"O valor de um 1 Dólar americano é igual a 5,24 Real brasileiro")
+valor_conversão = (valor_real / 5.24)
+print(f"O valor correspondente de dólares apos a conversão seria: ${valor_conversão}")
